@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Home | RiffRaff</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                 <style>           
+            img {
+    max-width: 100%;
+    height: auto;
+}
+     <!-- Write your comments here             
+                   
+                   
+                   In short, the browser isn't displaying the image because the browser can't find it using the instructions you gave it. Those instructions are the src attribute of the img tag...
+
+<img src="mypic.gif" width="100" height="80" alt="My Pic">
+
+Now, there are a few possible reasons why the browser cannot find the image. You might have one problem going on, or all of them. Let's go through the following exercises to see if maybe we can narrow down the problem.
+
+First, try putting the image in the same folder as your html document...
+
+	src="mypic.gif" means that the image is in the same folder as the html document that called for it.
+
+This is the simplest way to insert an image. As long as everything is in the same folder, things are pretty simple to find.
+
+Possible snags?
+
+Simple (but common) typo: scr= instead of src=
+Mispelling the image name: src="mypick.gif" or src="my pic.gif" instead of src="mypic.gif"
+Wrong extension: src="mypic.jpg" when your image is a gif... mypic.gif. (Should I use gif or jpg? You might find this interesting.)
+Malformed img tag...
+<img src="mypic.gif" width="100" height="80" alt="My Pic" 
+<img src="mypic.gif width="100" height="80" alt="My Pic">
+Before going on to other possible reasons for your missing image, make sure that you can successfully insert an image as shown above.
+
+Ok, Joe, I can do that, but as soon as I put the image into a different folder, I start having troubles.
+
+It's very common to place images in a folder other than where your html doc resides. It's all fine and dandy, but just keep in mind that you must tell the browser exactly where to find the image. One little mistake.... and image doesn't show up.
+
+Very possibly the cause of your missing image is an improper relative src.
+
+Study the following until you understand how to construct a proper src. I understand it can be confusing... but when you have things in different folders, this is just something you'll have to learn.
+
+
+                   
+                   
+                   
+     <p>An absolute URL: <a href="https://www.w3schools.com">W3Schools</a></p>
+<p>A relative URL: <a href="tag_a.asp">The a tag</a></p>
+               W <!-- Write your comments here
+                    <!-- Write your comments here
+                   
+                   <img src="/wp-content/uploads/flamingo.jpg">
+                    Write your comments here
+            
+            </style>   
+                
+                <a class="navbar-brand topnav" href="#"><img src="img/SmallGreenCougarHead.jpg" alt="Cougar" /></a>
+            </div>
+ <style>           
+            img {
+    max-width: 100%;
+    height: auto;
+}
+            
+            </style>         
+            
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-loc="about">About</a>
+                    </li>
+                    <li>
+                        <a href="#" data-loc="skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#" data-loc="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section id="about" class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>duh RiffRaff</h1>
+                        <h3>An example responsive site made with Bootstrap</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>                            
+                            </li>
+                            <li>
+                               <a href="#" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div><!-- end container -->
+    </section> <!-- end about -->
+
+    <!-- Main Content Section -->
+    <section id="skills">
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Placeholder Heading<br>For This Section</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, vel et brute graece comprehensam. His mutat contentiones id, usu stet scripta ut. Invidunt scribentur sit ei, te his persecuti temporibus, natum aperiam id eum. Labore facilisis definitionem at sit, ne duo hendrerit prodesset.</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/imac.png" alt="">
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </div> <!-- end banner -->
+
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Placeholder Heading<br>For This Section</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, vel et brute graece comprehensam. His mutat contentiones id, usu stet scripta ut. Invidunt scribentur sit ei, te his persecuti temporibus, natum aperiam id eum. Labore facilisis definitionem at sit, ne duo hendrerit prodesset.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/LM & Sis.jpg" alt="RiffRaff">
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </div> <!-- end banner -->
+
+        <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading">Placeholder Heading<br>For This Section</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, vel et brute graece comprehensam. His mutat contentiones id, usu stet scripta ut. Invidunt scribentur sit ei, te his persecuti temporibus, natum aperiam id eum. Labore facilisis definitionem at sit, ne duo hendrerit prodesset.</p>
+                    </div>
+                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                        <img class="img-responsive" src="img/ipad.png" alt="">
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </div> <!-- end banner -->
+    </section>
+
+    <section id="contact" class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect with me:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section> <!-- end banner -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" data-loc="about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#" data-loc="skills">Skills</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#" data-loc="contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Created by: RiffRaff &sdot; SweatLoose 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery and ScrollTo -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-scrollto.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="application/javascript">
+        (function($){
+            
+            $("#navbar,#footer").on('click','li a', function() {
+                var $clickedAnchor = $(this),
+                    $panelToScrollTo = $('#' + $clickedAnchor.data('loc'));
+                $panelToScrollTo.ScrollTo();
+            });
+            
+        }(jQuery));         
+    </script>
+</body>
+</html>
